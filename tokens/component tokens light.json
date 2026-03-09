@@ -1,0 +1,1834 @@
+{
+  "componentsLight": {
+    "informer": {
+      "title": {
+        "$type": "color",
+        "$value": "{semanticLight.text.primary}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{semanticLight.text.primary}"
+      },
+      "description": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "closeIcon": {
+        "$type": "color",
+        "$value": "{semanticLight.icon.outlined.secondary}"
+      },
+      "brand": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.transparent8}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.transparent16}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.brand}"
+        }
+      },
+      "success": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.success.transparent8}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semanticLight.success.transparent16}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.success}"
+        }
+      },
+      "info": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.info.transparent8}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semanticLight.info.transparent16}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.info}"
+        }
+      },
+      "warning": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.transparent8}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.transparent16}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.primary}"
+        }
+      },
+      "critical": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.critical.transparent8}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semanticLight.critical.transparent16}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.critical.primary}"
+        }
+      },
+      "draft": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.draft.transparent8}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semanticLight.draft.transparent16}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.draft.primary}"
+        }
+      }
+    },
+    "accordion": {
+      "title": {
+        "$type": "color",
+        "$value": "{semanticLight.text.primary}"
+      },
+      "textValue": {
+        "$type": "color",
+        "$value": "{semanticLight.text.primary}"
+      },
+      "textDescription": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "textLabel": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{semanticLight.icon.outlined.primary}"
+      }
+    },
+    "link": {
+      "primary": {
+        "textNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.text.primary}"
+        },
+        "iconNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.primary}"
+        },
+        "textHover": {
+          "$type": "color",
+          "$value": "{semanticLight.text.primary}"
+        },
+        "iconHover": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.primary}"
+        },
+        "textClick": {
+          "$type": "color",
+          "$value": "{semanticLight.text.primary}"
+        },
+        "iconClick": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.primary}"
+        }
+      },
+      "brand": {
+        "textNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.secondary}"
+        },
+        "textHover": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.tertiary}"
+        },
+        "textClick": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.quaternary}"
+        },
+        "iconNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.secondary}"
+        },
+        "iconHover": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.tertiary}"
+        },
+        "iconClick": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.quaternary}"
+        }
+      },
+      "success": {
+        "textNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.success.secondary}"
+        },
+        "textHover": {
+          "$type": "color",
+          "$value": "{semanticLight.success.tertiary}"
+        },
+        "textClick": {
+          "$type": "color",
+          "$value": "{semanticLight.success.quaternary}"
+        },
+        "iconNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.success.secondary}"
+        },
+        "iconHover": {
+          "$type": "color",
+          "$value": "{semanticLight.success.tertiary}"
+        },
+        "iconClick": {
+          "$type": "color",
+          "$value": "{semanticLight.success.quaternary}"
+        }
+      },
+      "info": {
+        "textNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.info.secondary}"
+        },
+        "textHover": {
+          "$type": "color",
+          "$value": "{semanticLight.info.tertiary}"
+        },
+        "textClick": {
+          "$type": "color",
+          "$value": "{semanticLight.info.quaternary}"
+        },
+        "iconNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.info.secondary}"
+        },
+        "iconHover": {
+          "$type": "color",
+          "$value": "{semanticLight.info.tertiary}"
+        },
+        "iconClick": {
+          "$type": "color",
+          "$value": "{semanticLight.info.quaternary}"
+        }
+      },
+      "warning": {
+        "textNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.secondary}"
+        },
+        "textHover": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.tertiary}"
+        },
+        "textClick": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.quaternary}"
+        },
+        "iconNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.secondary}"
+        },
+        "iconHover": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.tertiary}"
+        },
+        "iconClick": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.quaternary}"
+        }
+      },
+      "critical": {
+        "textNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.critical.secondary}"
+        },
+        "textHover": {
+          "$type": "color",
+          "$value": "{semanticLight.critical.tertiary}"
+        },
+        "textClick": {
+          "$type": "color",
+          "$value": "{semanticLight.critical.quaternary}"
+        },
+        "iconNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.critical.secondary}"
+        },
+        "iconHover": {
+          "$type": "color",
+          "$value": "{semanticLight.critical.tertiary}"
+        },
+        "iconClick": {
+          "$type": "color",
+          "$value": "{semanticLight.critical.quaternary}"
+        }
+      },
+      "draft": {
+        "textNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.draft.secondary}"
+        },
+        "textHover": {
+          "$type": "color",
+          "$value": "{semanticLight.draft.tertiary}"
+        },
+        "textClick": {
+          "$type": "color",
+          "$value": "{semanticLight.draft.quaternary}"
+        },
+        "iconNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.draft.secondary}"
+        },
+        "iconHover": {
+          "$type": "color",
+          "$value": "{semanticLight.draft.tertiary}"
+        },
+        "iconClick": {
+          "$type": "color",
+          "$value": "{semanticLight.draft.quaternary}"
+        }
+      },
+      "constant": {
+        "textNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.text.constantPrimary}"
+        },
+        "textHover": {
+          "$type": "color",
+          "$value": "{semanticLight.text.constantPrimary}"
+        },
+        "textClick": {
+          "$type": "color",
+          "$value": "{semanticLight.text.constantPrimary}"
+        },
+        "iconNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.constantPrimary}"
+        },
+        "iconHover": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.constantPrimary}"
+        },
+        "iconClick": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.constantPrimary}"
+        }
+      }
+    },
+    "badge": {
+      "primary": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.primary.transparent8}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.primary}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{semanticLight.text.primary}"
+        }
+      },
+      "brand": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.transparent8}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.brand}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{semanticLight.text.brand}"
+        }
+      },
+      "success": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.success.transparent8}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.success}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{semanticLight.text.success}"
+        }
+      },
+      "info": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.info.transparent8}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.info}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{semanticLight.text.info}"
+        }
+      },
+      "warning": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.transparent8}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.warning}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{semanticLight.text.warning}"
+        }
+      },
+      "critical": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.critical.transparent8}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.critical}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{semanticLight.text.critical}"
+        }
+      },
+      "draft": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.draft.transparent8}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.draft}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{semanticLight.text.draft}"
+        }
+      }
+    },
+    "bubble": {
+      "text": {
+        "$type": "color",
+        "$value": "{semanticLight.text.primary}"
+      },
+      "bodyPrimary": {
+        "$type": "color",
+        "$value": "{semanticLight.primary.transparent12}"
+      },
+      "bodyBrand": {
+        "$type": "color",
+        "$value": "{semanticLight.brand.transparent12}"
+      },
+      "bodySuccess": {
+        "$type": "color",
+        "$value": "{semanticLight.success.transparent12}"
+      },
+      "bodyInfo": {
+        "$type": "color",
+        "$value": "{semanticLight.info.transparent12}"
+      },
+      "bodyWarning": {
+        "$type": "color",
+        "$value": "{semanticLight.warning.transparent12}"
+      },
+      "bodyCritical": {
+        "$type": "color",
+        "$value": "{semanticLight.critical.transparent12}"
+      },
+      "bodyDraft": {
+        "$type": "color",
+        "$value": "{semanticLight.draft.transparent12}"
+      }
+    },
+    "button": {
+      "filled": {
+        "brand": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.primary}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.secondary}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.tertiary}"
+          }
+        },
+        "success": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.success.primary}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.success.secondary}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.success.tertiary}"
+          }
+        },
+        "info": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.info.primary}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.info.secondary}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.info.tertiary}"
+          }
+        },
+        "warning": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.primary}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.secondary}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.tertiary}"
+          }
+        },
+        "critical": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.primary}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.secondary}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.tertiary}"
+          }
+        },
+        "draft": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.primary}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.secondary}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.tertiary}"
+          }
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{semanticLight.constant.primary}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.constant.primary}"
+        }
+      },
+      "outlined": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.transparent.primary}"
+        },
+        "brand": {
+          "borderNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.secondary}"
+          },
+          "borderHover": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.tertiary}"
+          },
+          "borderClick": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.quaternary}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.brand}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.brand}"
+          }
+        },
+        "success": {
+          "borderNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.success.secondary}"
+          },
+          "borderHover": {
+            "$type": "color",
+            "$value": "{semanticLight.success.tertiary}"
+          },
+          "borderClick": {
+            "$type": "color",
+            "$value": "{semanticLight.success.quaternary}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.success}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.success}"
+          }
+        },
+        "info": {
+          "borderNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.info.secondary}"
+          },
+          "borderHover": {
+            "$type": "color",
+            "$value": "{semanticLight.info.tertiary}"
+          },
+          "borderClick": {
+            "$type": "color",
+            "$value": "{semanticLight.info.quaternary}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.info}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.info}"
+          }
+        },
+        "warning": {
+          "borderNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.secondary}"
+          },
+          "borderHover": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.tertiary}"
+          },
+          "borderClick": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.quaternary}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.warning}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.warning}"
+          }
+        },
+        "critical": {
+          "borderNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.secondary}"
+          },
+          "borderHover": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.tertiary}"
+          },
+          "borderClick": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.quaternary}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.critical}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.critical}"
+          }
+        },
+        "draft": {
+          "borderNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.secondary}"
+          },
+          "borderHover": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.tertiary}"
+          },
+          "borderClick": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.quaternary}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.draft}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.draft}"
+          }
+        }
+      },
+      "transparent": {
+        "bodyNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.transparent.primary}"
+        },
+        "brand": {
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.transparent8}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.transparent12}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.brand}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.brand}"
+          }
+        },
+        "success": {
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.success.transparent8}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.success.transparent12}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.success}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.success}"
+          }
+        },
+        "info": {
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.info.transparent8}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.info.transparent12}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.info}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.info}"
+          }
+        },
+        "warning": {
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.transparent8}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.transparent12}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.warning}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.warning}"
+          }
+        },
+        "critical": {
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.transparent8}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.transparent12}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.critical}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.critical}"
+          }
+        },
+        "draft": {
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.transparent8}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.transparent12}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.draft}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.draft}"
+          }
+        },
+        "primary": {
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.primary.transparent8}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.primary.transparent12}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.primary}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.primary}"
+          }
+        }
+      },
+      "tonned": {
+        "brand": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.transparent8}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.transparent12}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.transparent16}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.brand}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.brand}"
+          }
+        },
+        "success": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.success.transparent8}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.success.transparent12}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.success.transparent16}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.success}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.success}"
+          }
+        },
+        "info": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.info.transparent8}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.info.transparent12}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.info.transparent16}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.info}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.info}"
+          }
+        },
+        "warning": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.transparent8}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.transparent12}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.transparent16}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.warning}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.warning}"
+          }
+        },
+        "critical": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.transparent8}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.transparent12}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.transparent16}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.critical}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.critical}"
+          }
+        },
+        "draft": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.transparent8}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.transparent12}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.transparent16}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.draft}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.draft}"
+          }
+        },
+        "primary": {
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.primary.transparent4}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.primary.transparent8}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.primary.transparent12}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.primary}"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.primary}"
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "textNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.text.primary}"
+          },
+          "iconNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.primary}"
+          },
+          "textHover": {
+            "$type": "color",
+            "$value": "{semanticLight.text.primary}"
+          },
+          "iconHover": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.primary}"
+          },
+          "textClick": {
+            "$type": "color",
+            "$value": "{semanticLight.text.primary}"
+          },
+          "iconClick": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.primary}"
+          }
+        },
+        "brand": {
+          "textNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.secondary}"
+          },
+          "textHover": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.tertiary}"
+          },
+          "textClick": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.quaternary}"
+          },
+          "iconNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.secondary}"
+          },
+          "iconHover": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.tertiary}"
+          },
+          "iconClick": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.quaternary}"
+          }
+        },
+        "success": {
+          "textNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.success.secondary}"
+          },
+          "textHover": {
+            "$type": "color",
+            "$value": "{semanticLight.success.tertiary}"
+          },
+          "textClick": {
+            "$type": "color",
+            "$value": "{semanticLight.success.quaternary}"
+          },
+          "iconNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.success.secondary}"
+          },
+          "iconHover": {
+            "$type": "color",
+            "$value": "{semanticLight.success.tertiary}"
+          },
+          "iconClick": {
+            "$type": "color",
+            "$value": "{semanticLight.success.quaternary}"
+          }
+        },
+        "info": {
+          "textNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.info.secondary}"
+          },
+          "textHover": {
+            "$type": "color",
+            "$value": "{semanticLight.info.tertiary}"
+          },
+          "textClick": {
+            "$type": "color",
+            "$value": "{semanticLight.info.quaternary}"
+          },
+          "iconNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.info.secondary}"
+          },
+          "iconHover": {
+            "$type": "color",
+            "$value": "{semanticLight.info.tertiary}"
+          },
+          "iconClick": {
+            "$type": "color",
+            "$value": "{semanticLight.info.quaternary}"
+          }
+        },
+        "warning": {
+          "textNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.secondary}"
+          },
+          "textHover": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.tertiary}"
+          },
+          "textClick": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.quaternary}"
+          },
+          "iconNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.secondary}"
+          },
+          "iconHover": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.tertiary}"
+          },
+          "iconClick": {
+            "$type": "color",
+            "$value": "{semanticLight.warning.quaternary}"
+          }
+        },
+        "critical": {
+          "textNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.secondary}"
+          },
+          "textHover": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.tertiary}"
+          },
+          "textClick": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.quaternary}"
+          },
+          "iconNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.secondary}"
+          },
+          "iconHover": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.tertiary}"
+          },
+          "iconClick": {
+            "$type": "color",
+            "$value": "{semanticLight.critical.quaternary}"
+          }
+        },
+        "draft": {
+          "textNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.secondary}"
+          },
+          "textHover": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.tertiary}"
+          },
+          "textClick": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.quaternary}"
+          },
+          "iconNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.secondary}"
+          },
+          "iconHover": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.tertiary}"
+          },
+          "iconClick": {
+            "$type": "color",
+            "$value": "{semanticLight.draft.quaternary}"
+          }
+        },
+        "constant": {
+          "textNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.text.constantPrimary}"
+          },
+          "textHover": {
+            "$type": "color",
+            "$value": "{semanticLight.text.constantPrimary}"
+          },
+          "textClick": {
+            "$type": "color",
+            "$value": "{semanticLight.text.constantPrimary}"
+          },
+          "iconNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.constantPrimary}"
+          },
+          "iconHover": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.constantPrimary}"
+          },
+          "iconClick": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.constantPrimary}"
+          }
+        }
+      }
+    },
+    "divider": {
+      "thin": {
+        "$type": "color",
+        "$value": "{semanticLight.primary.transparent12}"
+      },
+      "fat": {
+        "$type": "color",
+        "$value": "{semanticLight.primary.transparent8}"
+      }
+    },
+    "input": {
+      "body": {
+        "$type": "color",
+        "$value": "{semanticLight.transparent.primary}"
+      },
+      "bodyDisabled": {
+        "$type": "color",
+        "$value": "{semanticLight.primary.transparent4}"
+      },
+      "borderNormal": {
+        "$type": "color",
+        "$value": "{semanticLight.primary.transparent16}"
+      },
+      "borderHover": {
+        "$type": "color",
+        "$value": "{semanticLight.primary.transparent24}"
+      },
+      "borderClick": {
+        "$type": "color",
+        "$value": "{semanticLight.primary.transparent32}"
+      },
+      "borderActive": {
+        "$type": "color",
+        "$value": "{semanticLight.brand.secondary}"
+      },
+      "borderFilled": {
+        "$type": "color",
+        "$value": "{semanticLight.success.secondary}"
+      },
+      "borderWarning": {
+        "$type": "color",
+        "$value": "{semanticLight.warning.secondary}"
+      },
+      "borderDisabled": {
+        "$type": "color",
+        "$value": "{semanticLight.primary.transparent16}"
+      },
+      "borderReadOnly": {
+        "$type": "color",
+        "$value": "{semanticLight.primary.transparent16}"
+      },
+      "textPlaceholder": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "textValue": {
+        "$type": "color",
+        "$value": "{semanticLight.text.primary}"
+      },
+      "textValueDisabled": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "textAdditional": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "textDescription": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{semanticLight.icon.outlined.primary}"
+      },
+      "iconDisabled": {
+        "$type": "color",
+        "$value": "{semanticLight.icon.outlined.secondary}"
+      }
+    },
+    "tab": {
+      "counterBodyNormal": {
+        "$type": "color",
+        "$value": "{semanticLight.brand.primary}"
+      },
+      "counterText": {
+        "$type": "color",
+        "$value": "{semanticLight.text.constantPrimary}"
+      },
+      "indicator": {
+        "$type": "color",
+        "$value": "{semanticLight.brand.primary}"
+      },
+      "off": {
+        "text": {
+          "$type": "color",
+          "$value": "{semanticLight.text.primary}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.filled.primary}"
+        },
+        "bodyNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.transparent.primary}"
+        },
+        "bodyHover": {
+          "$type": "color",
+          "$value": "{semanticLight.primary.transparent4}"
+        },
+        "bodyClick": {
+          "$type": "color",
+          "$value": "{semanticLight.primary.transparent8}"
+        }
+      },
+      "on": {
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.filled.brand}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{semanticLight.text.brand}"
+        },
+        "bodyNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.transparent.primary}"
+        },
+        "bodyHover": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.transparent8}"
+        },
+        "bodyClick": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.transparent12}"
+        }
+      }
+    },
+    "textField": {
+      "textPlaceholder": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "textLabel": {
+        "$type": "color",
+        "$value": "{semanticLight.text.primary}"
+      },
+      "textDescription": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "textOptional": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "textWarning": {
+        "$type": "color",
+        "$value": "{semanticLight.text.warning}"
+      }
+    },
+    "toast": {
+      "title": {
+        "$type": "color",
+        "$value": "{semanticLight.text.primary}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{semanticLight.text.primary}"
+      },
+      "description": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "closeIcon": {
+        "$type": "color",
+        "$value": "{semanticLight.icon.outlined.secondary}"
+      },
+      "brand": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.background1.brand}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.transparent16}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.brand}"
+        }
+      },
+      "success": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.background1.success}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semanticLight.success.transparent16}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.success}"
+        }
+      },
+      "info": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.background1.info}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semanticLight.info.transparent16}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.outlined.info}"
+        }
+      },
+      "warning": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.background1.warning}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.transparent16}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.primary}"
+        }
+      },
+      "critical": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.background1.critical}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semanticLight.critical.transparent16}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.critical.primary}"
+        }
+      },
+      "draft": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.background1.draft}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semanticLight.draft.transparent16}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.draft.primary}"
+        }
+      }
+    },
+    "steps": {
+      "active": {
+        "bodyNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.primary}"
+        },
+        "bodyHover": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.secondary}"
+        },
+        "bodyClick": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.tertiary}"
+        }
+      },
+      "inactive": {
+        "bodyNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.primary.transparent8}"
+        },
+        "bodyHover": {
+          "$type": "color",
+          "$value": "{semanticLight.primary.transparent12}"
+        },
+        "bodyClick": {
+          "$type": "color",
+          "$value": "{semanticLight.primary.transparent16}"
+        }
+      }
+    },
+    "suggest": {
+      "off": {
+        "text": {
+          "$type": "color",
+          "$value": "{semanticLight.text.primary}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.filled.primary}"
+        },
+        "bodyNormal": {
+          "$type": "color",
+          "$value": "{semantic.elevation0.body}"
+        },
+        "bodyHover": {
+          "$type": "color",
+          "$value": "{semanticLight.primary.transparent4}"
+        },
+        "bodyClick": {
+          "$type": "color",
+          "$value": "{semanticLight.primary.transparent8}"
+        },
+        "borderNormal": {
+          "$type": "color",
+          "$value": "{semantic.elevation1.borderNormal}"
+        },
+        "borderHover": {
+          "$type": "color",
+          "$value": "{semantic.elevation1.borderHover}"
+        },
+        "borderClick": {
+          "$type": "color",
+          "$value": "{semantic.elevation1.borderClick}"
+        }
+      },
+      "on": {
+        "text": {
+          "$type": "color",
+          "$value": "{semanticLight.text.brand}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{semanticLight.icon.filled.brand}"
+        },
+        "bodyNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.transparent8}"
+        },
+        "bodyHover": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.transparent12}"
+        },
+        "bodyClick": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.transparent16}"
+        },
+        "borderNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.secondary}"
+        },
+        "borderHover": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.tertiary}"
+        },
+        "borderClick": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.quaternary}"
+        }
+      }
+    },
+    "userChoice": {
+      "toggle": {
+        "$type": "color",
+        "$value": "{semanticLight.constant.primary}"
+      },
+      "toggleDisabled": {
+        "$type": "color",
+        "$value": "{semanticLight.icon.filled.constantSecondary}"
+      },
+      "textValue": {
+        "$type": "color",
+        "$value": "{semanticLight.text.primary}"
+      },
+      "textDescription": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "textWarning": {
+        "$type": "color",
+        "$value": "{semanticLight.text.warning}"
+      },
+      "textLabel": {
+        "$type": "color",
+        "$value": "{semanticLight.text.secondary}"
+      },
+      "off": {
+        "body": {
+          "$type": "color",
+          "$value": "{semanticLight.constant.primary}"
+        },
+        "bodyNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.primary.transparent24}"
+        },
+        "bodyHover": {
+          "$type": "color",
+          "$value": "{semanticLight.primary.transparent32}"
+        },
+        "bodyClick": {
+          "$type": "color",
+          "$value": "{semanticLight.primary.transparent40}"
+        },
+        "bodyDisabled": {
+          "$type": "color",
+          "$value": "{semanticLight.primary.transparent16}"
+        },
+        "bodyWarning": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.primary}"
+        },
+        "borderNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.secondary}"
+        },
+        "borderHover": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.tertiary}"
+        },
+        "borderClick": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.quaternary}"
+        },
+        "borderDisabled": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.transparent40}"
+        }
+      },
+      "on": {
+        "bodyNormal": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.primary}"
+        },
+        "bodyHover": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.secondary}"
+        },
+        "bodyClick": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.tertiary}"
+        },
+        "bodyDisabled": {
+          "$type": "color",
+          "$value": "{semanticLight.brand.primary}"
+        },
+        "bodyWarning": {
+          "$type": "color",
+          "$value": "{semanticLight.warning.primary}"
+        }
+      }
+    },
+    "chips": {
+      "filled": {
+        "off": {
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.primary}"
+          },
+          "textDisabled": {
+            "$type": "color",
+            "$value": "{semanticLight.text.secondary}"
+          },
+          "iconPrimary": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.filled.primary}"
+          },
+          "iconSecondary": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.secondary}"
+          },
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.primary.transparent8}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.primary.transparent12}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.primary.transparent16}"
+          },
+          "bodyDisabled": {
+            "$type": "color",
+            "$value": "{semanticLight.primary.transparent4}"
+          }
+        },
+        "on": {
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.constantPrimary}"
+          },
+          "textDisabled": {
+            "$type": "color",
+            "$value": "{semanticLight.text.constantSecondary}"
+          },
+          "iconPrimary": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.filled.constantPrimary}"
+          },
+          "iconSecondary": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.constantSecondary}"
+          },
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.primary}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.secondary}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.tertiary}"
+          },
+          "bodyDisabled": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.primary}"
+          }
+        }
+      },
+      "outlined": {
+        "off": {
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.primary}"
+          },
+          "textDisabled": {
+            "$type": "color",
+            "$value": "{semanticLight.text.secondary}"
+          },
+          "iconPrimary": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.filled.primary}"
+          },
+          "iconSecondary": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.secondary}"
+          },
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.transparent.primary}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.primary.transparent8}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.primary.transparent12}"
+          },
+          "bodyDisabled": {
+            "$type": "color",
+            "$value": "{semanticLight.transparent.primary}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{semantic.elevation0.primary.borderNormal}"
+          }
+        },
+        "on": {
+          "text": {
+            "$type": "color",
+            "$value": "{semanticLight.text.brand}"
+          },
+          "textDisabled": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.transparent40}"
+          },
+          "iconPrimary": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.filled.brand}"
+          },
+          "iconSecondary": {
+            "$type": "color",
+            "$value": "{semanticLight.icon.outlined.brand}"
+          },
+          "bodyNormal": {
+            "$type": "color",
+            "$value": "{semanticLight.transparent.primary}"
+          },
+          "bodyHover": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.transparent8}"
+          },
+          "bodyClick": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.transparent12}"
+          },
+          "bodyDisabled": {
+            "$type": "color",
+            "$value": "{semanticLight.transparent.primary}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{semanticLight.brand.secondary}"
+          }
+        }
+      }
+    },
+    "hint": {
+      "body": {
+        "$type": "color",
+        "$value": "{semanticLight.primary.primary}"
+      },
+      "title": {
+        "$type": "color",
+        "$value": "{semanticLight.text.constantPrimary}"
+      },
+      "description": {
+        "$type": "color",
+        "$value": "{semanticLight.text.constantSecondary}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{semanticLight.icon.outlined.constantSecondary}"
+      }
+    },
+    "tooltip": {
+      "body": {
+        "$type": "color",
+        "$value": "{semanticLight.primary.primary}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{semanticLight.text.constantPrimary}"
+      }
+    }
+  }
+}
